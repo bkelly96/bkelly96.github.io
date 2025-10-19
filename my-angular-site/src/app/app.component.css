@@ -11,12 +11,17 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    padding: 20px 60px;
+    right: 0;
+    /* ensures full-width layout */
+    padding: 20px 40px;
+    /* reduced side padding */
     background: rgba(0, 0, 0, 0.7);
     transition: all 0.3s ease;
     z-index: 1000;
+    box-sizing: border-box;
+    /* prevents padding from reducing space */
 }
+
 
 nav.scrolled {
     background: rgba(0, 0, 0, 0.9);
@@ -28,6 +33,7 @@ nav.scrolled {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -37,9 +43,9 @@ nav.scrolled {
 }
 
 .nav-links {
-    list-style: none;
     display: flex;
     gap: 30px;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -47,8 +53,6 @@ nav.scrolled {
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 1.1rem;
-    transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
@@ -60,4 +64,9 @@ nav.scrolled {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+main {
+    margin-top: 100px;
+    /* match your navbar height */
 }
