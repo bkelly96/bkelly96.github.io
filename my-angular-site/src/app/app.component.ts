@@ -1,9 +1,9 @@
 import { Component, HostListener } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { HeroComponent } from './hero/hero.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -21,8 +21,8 @@ import { CommonModule } from '@angular/common';
 export class AppComponent {
   isScrolled = false;
 
-  @HostListener('window:scroll')
-  onScroll() {
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
     this.isScrolled = window.scrollY > 50;
   }
 }
