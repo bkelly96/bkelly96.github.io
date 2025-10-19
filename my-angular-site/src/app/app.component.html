@@ -1,12 +1,21 @@
 <nav [class.scrolled]="isScrolled">
-  <div class="nav-content">
-    <a href="#about">About</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
+  <div class="nav-container">
+    <div class="logo">Brian Kelly</div>
+    <ul class="nav-links">
+      <li><a href="#about">Experience</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#skills">Skill</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li>Resume</li>
+    </ul>
   </div>
 </nav>
 
-<app-hero></app-hero>
-<app-about id="about"></app-about>
-<app-portfolio id="portfolio"></app-portfolio>
-<app-contact id="contact"></app-contact>
+<main>
+  <app-hero></app-hero>
+  <app-about id="about"></app-about>
+  <app-experience id="experience"></app-experience>
+  <app-portfolio id="portfolio"></app-portfolio>
+  <app-skills id="skills"></app-skills>
+  <app-contact id="contact"></app-contact>
+</main>

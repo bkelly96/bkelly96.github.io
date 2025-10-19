@@ -1,36 +1,72 @@
+/* force visible navbar background */
+body {
+    margin: 0;
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar base */
 nav {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    z-index: 100;
-    padding: 1rem 0;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    background: transparent;
+    right: 0;
+    /* ensures full-width layout */
+    padding: 20px 40px;
+    /* reduced side padding */
+    background: rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    box-sizing: border-box;
+    /* prevents padding from reducing space */
 }
+
 
 nav.scrolled {
-    background-color: white;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px 60px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
 
-.nav-content {
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00bfff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #00bfff;
+}
+
+.hero-placeholder {
+    height: 100vh;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    align-items: center;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    transition: color 0.3s;
-}
-
-nav.scrolled a {
-    color: #333;
-}
-
-a:hover {
-    color: #0077ff;
+main {
+    margin-top: 100px;
+    /* match your navbar height */
 }
