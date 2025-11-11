@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/styles.css"],
-  "sourcesContent": ["html, body {\r\n  margin: 0;\r\n  padding: 0;\r\n  background: #000;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\nmain {\r\n  margin: 0;\r\n  padding: 0;\r\n  background: transparent;\r\n}\r\n"],
-  "mappings": ";AAAA;AAAM;AACJ,UAAQ;AACR,WAAS;AACT,cAAY;AACZ,SAAO;AACP,UAAQ;AACV;AACA;AACE,UAAQ;AACR,WAAS;AACT,cAAY;AACd;",
-  "names": []
-}
