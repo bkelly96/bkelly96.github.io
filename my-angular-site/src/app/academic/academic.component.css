@@ -1,0 +1,49 @@
+.academics-section {
+  padding: 80px 0;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.academics-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.text-column {
+  flex: 1;
+  text-align: left;
+}
+
+.text-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.text-column p {
+  margin: 6px 0;
+  line-height: 1.5;
+}
+
+.image-column img {
+  width: 380px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
