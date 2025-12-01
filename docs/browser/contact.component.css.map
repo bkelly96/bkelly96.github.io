@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/contact/contact.component.css"],
-  "sourcesContent": [".contact-section {\r\n  background: url('/assets/Contact/contact.jpg') center/cover no-repeat;\r\n  padding: 120px 0;\r\n  text-align: center;\r\n  color: #fff;\r\n}D:\\bkelly96.github.io\\my-angular-site\\src\\assets\\Contact\\contact.jpg\r\n\r\n.contact-content {\r\n  max-width: 600px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.contact-subtitle {\r\n  font-size: 16px;\r\n  margin-bottom: 10px;\r\n  opacity: 0.9;\r\n}\r\n\r\n.contact-title {\r\n  font-size: 36px;\r\n  font-weight: 700;\r\n  margin-bottom: 30px;\r\n}\r\n\r\n.contact-btn {\r\n  display: inline-block;\r\n  padding: 12px 30px;\r\n  background-color: #30afcb;\r\n  color: #fff;\r\n  text-decoration: none;\r\n  font-weight: 600;\r\n  border-radius: 4px;\r\n}\r\n\r\n.contact-btn:hover {\r\n  background-color: #2794ac;\r\n}\r\n"],
-  "mappings": ";AAAA,CAAC;AACC,cAAY,iCAAmC,MAAM,CAAC,MAAM;AAC5D,WAAS,MAAM;AACf,cAAY;AACZ,SAAO;AACT;AAAC,CAAC,UAAU,CAAC,MAAM,CAAC,2CAA6C,CAAC,IAElE,CAAC;AACC,aAAW;AACX,UAAQ,EAAE;AACZ;AAEA,CAAC;AACC,aAAW;AACX,iBAAe;AACf,WAAS;AACX;AAEA,CAAC;AACC,aAAW;AACX,eAAa;AACb,iBAAe;AACjB;AAEA,CAAC;AACC,WAAS;AACT,WAAS,KAAK;AACd,oBAAkB;AAClB,SAAO;AACP,mBAAiB;AACjB,eAAa;AACb,iBAAe;AACjB;AAEA,CAVC,WAUW;AACV,oBAAkB;AACpB;",
-  "names": []
-}
