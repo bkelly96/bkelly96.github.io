@@ -22,6 +22,15 @@
 .hero-content {
   position: relative;
   z-index: 1;
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .highlights-section {
