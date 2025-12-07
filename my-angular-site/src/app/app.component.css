@@ -95,3 +95,68 @@ main {
 .footer-icons img:hover {
   opacity: 1;
 }
+
+.floating-wrapper {
+  position: fixed;
+  left: 20px;
+  bottom: -100%;      
+  pointer-events: none;
+  z-index: 9999;
+
+  animation: float-up 25s linear infinite;
+}
+
+/* THE IMAGE */
+.floating-image {
+  display: block;
+  width: 140px;
+  margin: 12px 0;
+}
+
+/* THE GLOWING CIRCLES */
+.glow-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #9a6cff;
+
+  margin: 0 auto;
+
+  box-shadow:
+    0 0 6px #9a6cff,
+    0 0 12px #9a6cff,
+    0 0 24px #9a6cff;
+
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.glow-dot.bottom {
+  animation-delay: 1s;
+}
+
+/* MOVEMENT */
+@keyframes float-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-200vh);
+  }
+}
+
+/* GLOW PULSE */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.3;
+    box-shadow:
+      0 0 6px #9a6cff,
+      0 0 12px #9a6cff;
+  }
+  50% {
+    opacity: 1;
+    box-shadow:
+      0 0 12px #9a6cff,
+      0 0 24px #9a6cff,
+      0 0 48px #9a6cff;
+  }
+}
