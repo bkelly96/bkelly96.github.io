@@ -1,5 +1,6 @@
 /* Timeline wrapper */
 .timeline {
+    box-sizing: border-box;
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
