@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "angular-site",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "start", "--prefix", "my-angular-site"],
+      "port": 4200
+    }
+  ]
+}

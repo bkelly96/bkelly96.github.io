@@ -64,3 +64,28 @@
   color: #555;
 }
 
+@media (max-width: 768px) {
+  .hero-content {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .highlights-section {
+    padding: 60px 20px;
+  }
+
+  .highlights-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1.5rem;
+  }
+
+  .highlight-item img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
