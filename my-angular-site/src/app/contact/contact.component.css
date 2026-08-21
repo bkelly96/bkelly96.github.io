@@ -35,3 +35,13 @@
 .contact-btn:hover {
   background-color: #2794ac;
 }
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 60px 20px;
+  }
+
+  .contact-title {
+    font-size: 28px;
+  }
+}

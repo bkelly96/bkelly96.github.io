@@ -160,3 +160,39 @@ main {
       0 0 48px #9a6cff;
   }
 }
+
+@media (max-width: 768px) {
+  nav {
+    padding: 15px 20px;
+  }
+
+  nav.scrolled {
+    padding: 10px 20px;
+  }
+
+  .logo {
+    font-size: 1.4rem;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  .floating-image {
+    width: 90px;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+  }
+}
